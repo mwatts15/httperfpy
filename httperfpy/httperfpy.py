@@ -31,7 +31,7 @@ class Httperf(object):
     def display_params(self):
         h = Httperf()
         for param in h.__params().keys():
-            print param
+            print(param)
 
     def __cmd(self):
         args = [self.path]
